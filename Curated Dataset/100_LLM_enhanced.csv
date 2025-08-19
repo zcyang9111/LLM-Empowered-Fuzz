@@ -1,0 +1,101 @@
+Vulnerability,File Name,Contract,Ground Truth,Echidna Result
+Arithmatic ,overflow_1,Overflow,1,1
+Arithmatic ,overflow_add,IntegerOverflowAdd,1,1
+Arithmatic ,overflow_benign_1,IntegerOverflowBenign1,1,1
+Arithmatic ,overflow_mapping_sym_1,IntegerOverflowMappingSym1,1,1
+Arithmatic ,overflow_minimal,IntegerOverflowMinimal,1,1
+Arithmatic ,91,Moon,0,0
+Arithmatic ,149,AbacasToken,0,1
+Arithmatic ,20,WPAYReward,0,0
+Arithmatic ,121,AdvanceToken,0,0
+Arithmatic ,47,batchTransfer,0,1
+Reentrancy,reentrance,Reentrance,1,1
+Reentrancy,reentrancy_dao,ReentrancyDAO,1,1
+Reentrancy,reentrancy_bonus,Reentrancy_bonus,1,1
+Reentrancy,reentrancy_cross_function,Reentrancy_cross_function,1,1
+Reentrancy,reentrancy_insecure,Reentrancy_insecure,1,1
+Reentrancy,39176,DAS,0,1
+Reentrancy,3,NIZIGEN,0,0
+Reentrancy,8,TokenGreeneum ,0,0
+Reentrancy,53,PundiXCash,0,0
+Reentrancy,78,OodlebitToken,0,0
+UncheckedCall,unchecked_1,Caller,1,1
+UncheckedCall,unchecked_2,TokenBank,1,1
+UncheckedCall,unchecked_3,MultiplicatorX4,1,1
+UncheckedCall,unchecked_4,WhaleGiveaway2,1,1
+UncheckedCall,unchecked_return_value,ReturnValue,1,1
+UncheckedCall,34959,MertToken,0,0
+UncheckedCall,32980,PROMOSAILER ,0,0
+UncheckedCall,289,Glv,0,0
+UncheckedCall,31530,BitLoanex,0,0
+UncheckedCall,90,PKCoin,0,0
+Access_control,200,ITNOTLCoin,0,0
+Access_control,201,AntiFakeLabelToken,0,0
+Access_control,202,NoteChainToken,0,0
+Access_control,203,LockEtherPay,0,0
+Access_control,204,LockEtherPay,0,0
+Access_control,arbitrary_location_write_simplel,Wallet,1,1
+Access_control,FibonacciBalance,FibonacciBalance,1,1
+Access_control,incorrect_constructor_name1,Missing,1,1
+Access_control,incorrect_constructor_name2,Missing,1,1
+Access_control,incorrect_constructor_name3,Missing,1,1
+Denial_of_service,205,WIZISHOPPINGCOIN,0,0
+Denial_of_service,206,AuraCoin,0,0
+Denial_of_service,207,Stampify,0,0
+Denial_of_service,208,SynTokenCrowdsale,0,0
+Denial_of_service,209,LockEtherPay,0,0
+Denial_of_service,dos_address_2,DosGas,1,1
+Denial_of_service,dos_number,DosArray,1,1
+Denial_of_service,dos_require,DosRequire,1,1
+Denial_of_service,dos_auction,DosAuction,1,1
+Denial_of_service,dos_loop,DosLoop,1,1
+Timestamp,210,TokedoToken,0,0
+Timestamp,211,REIToken,0,0
+Timestamp,212,AirDrop,0,0
+Timestamp,213,LockEtherPay,0,0
+Timestamp,214,Vault,0,0
+Timestamp,210_v,MINEA,1,0
+Timestamp,roulette,Roulette,1,1
+Timestamp,212_v,EIE,1,0
+Timestamp,ether_lotto,EtherLotto,1,1
+Timestamp,timed_crowdsale,TimedCrowdsale,1,1
+Bad_randomness,215,ETHONOM,0,0
+Bad_randomness,216,LockEtherPay,0,0
+Bad_randomness,217,EasyBuilderCoin,0,0
+Bad_randomness,218,X32323,0,0
+Bad_randomness,219,LockEtherPay,0,1
+Bad_randomness,ether_lotto_gasless,EtherLotto,1,1
+Bad_randomness,ether_lotto,EtherLotto,1,1
+Bad_randomness,guess_the_random_number,GuessTheRandomNumberChallenge,1,1
+Bad_randomness,lottopollo_exception,Lottopollo,1,1
+Bad_randomness,etheraffle,Ethraffle_v4b,1,1
+Transaction_order_depandence,220,OCCC,0,0
+Transaction_order_depandence,221,Solareum,0,0
+Transaction_order_depandence,222,LockEtherPay,0,0
+Transaction_order_depandence,223,SSDTokenSwap,0,1
+Transaction_order_depandence,224,BTC666,0,0
+Transaction_order_depandence,exception_1,ERC20,1,1
+Transaction_order_depandence,ERC20,ERC20,1,1
+Transaction_order_depandence,eth_send_dependence_minimal,EthTxOrderDependenceMinimal,1,1
+Transaction_order_depandence,odds_and_evens,OddsAndEvens,1,1
+Transaction_order_depandence,FindThisHash,FindThisHash,1,1
+Mishandled_exceptions,225,lockEtherPay,0,0
+Mishandled_exceptions,226,FRV,0,0
+Mishandled_exceptions,227,Agreement,0,1
+Mishandled_exceptions,228,LockEtherPay,0,0
+Mishandled_exceptions,229,EtherealTarot,0,0
+Mishandled_exceptions,etherpot_lotto,Lotto,1,1
+Mishandled_exceptions,king_of_the_ether_throne,KingOfEther,1,1
+Mishandled_exceptions,caller,Caller,1,1
+Mishandled_exceptions,lotto,Lotto,1,1
+Mishandled_exceptions,mishandled,SendBack,1,1
+Gas_exception,230,Shopdex,0,0
+Gas_exception,231,P2PCoin,0,0
+Gas_exception,232,MoniCoin,0,0
+Gas_exception,233,Exploit,0,1
+Gas_exception,234,ShipNextToken,0,0
+Gas_exception,ierc,TokenSaleGas,1,0
+Gas_exception,token,ExaEUR,1,1
+Gas_exception,token1,RewardClaimHandler,1,1
+Gas_exception,owned,EncryptedToken ,1,1
+Gas_exception,bitcoin,BitcoinCard,1,1
