@@ -14,7 +14,7 @@ const KEEP_FILES = process.env.KEEP_FILES !== 'false';
 
 // Initialize OpenAI client
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY || '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', // Set your API key in environment variable
+  apiKey: process.env.OPENAI_API_KEY ||  // Set your API key in environment variable
 });
 
 // Enable CORS for frontend
