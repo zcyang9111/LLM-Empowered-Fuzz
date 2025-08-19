@@ -12,7 +12,10 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 const KEEP_FILES = process.env.KEEP_FILES !== 'false';
 
-
+// Initialize OpenAI client
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY ||  // Set your API key in environment variable
+});
 
 // Enable CORS for frontend
 app.use(cors());
