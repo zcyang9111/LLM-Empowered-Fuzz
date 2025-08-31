@@ -3,6 +3,8 @@ This project is the **first-ever website** that integrates a **fuzzing tool (Ech
 Users can upload their Solidity smart contracts and related Echidna property files, run automated fuzzing and LLM-based analysis, and download results in **PDF** or **JSON** format.
 
 This platform is designed to simplify the process of smart contract auditing for both **beginners** and **experts**.
+
+**The dataset we used is in the *Curated Dataset***.
 ## Features
 
 - **Smart Contract Upload**: Upload Solidity contracts and Echidna property files for analysis.
